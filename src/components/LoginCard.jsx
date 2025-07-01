@@ -143,7 +143,7 @@ const LoginCard = () => {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
 export default LoginCard

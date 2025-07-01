@@ -20,13 +20,12 @@ const HeroContent = () => {
       <div className="space-y-4 sm:space-y-6 pt-6 sm:pt-8">
         <div
           className="flex flex-col sm:flex-row items-center sm:items-start space-y-3 sm:space-y-0 sm:space-x-4"
-          style={{ alignItems: "flex-start" }}
+          style={{ alignItems: "center" }}
         >
-          <div
-            className="flex-shrink-0 w-10 h-10 sm:w-12 sm:h-12 bg-purple-600 rounded-lg flex items-center justify-center"
-            style={{ flexShrink: 0 }}
-          >
-            <Monitor className="w-5 h-5 sm:w-6 sm:h-6 text-white" />
+          <div className="flex flex-col items-center sm:block w-full sm:w-auto">
+            <div className="flex-shrink-0 w-10 h-10 sm:w-12 sm:h-12 bg-purple-600 rounded-lg flex items-center justify-center mx-auto sm:mx-0" style={{ flexShrink: 0 }}>
+              <Monitor className="w-5 h-5 sm:w-6 sm:h-6 text-white" />
+            </div>
           </div>
           <div className="text-center sm:text-left" style={{ flexGrow: 1 }}>
             <h3 className="text-base sm:text-lg font-semibold text-white">Works on every platform</h3>
@@ -36,13 +35,12 @@ const HeroContent = () => {
 
         <div
           className="flex flex-col sm:flex-row items-center sm:items-start space-y-3 sm:space-y-0 sm:space-x-4"
-          style={{ alignItems: "flex-start" }}
+          style={{ alignItems: "center" }}
         >
-          <div
-            className="flex-shrink-0 w-10 h-10 sm:w-12 sm:h-12 bg-purple-600 rounded-lg flex items-center justify-center"
-            style={{ flexShrink: 0 }}
-          >
-            <Sparkles className="w-5 h-5 sm:w-6 sm:h-6 text-white" />
+          <div className="flex flex-col items-center sm:block w-full sm:w-auto">
+            <div className="flex-shrink-0 w-10 h-10 sm:w-12 sm:h-12 bg-purple-600 rounded-lg flex items-center justify-center mx-auto sm:mx-0" style={{ flexShrink: 0 }}>
+              <Sparkles className="w-5 h-5 sm:w-6 sm:h-6 text-white" />
+            </div>
           </div>
           <div className="text-center sm:text-left" style={{ flexGrow: 1 }}>
             <h3 className="text-base sm:text-lg font-semibold text-white">Crystal-clear quality</h3>
@@ -52,13 +50,12 @@ const HeroContent = () => {
 
         <div
           className="flex flex-col sm:flex-row items-center sm:items-start space-y-3 sm:space-y-0 sm:space-x-4"
-          style={{ alignItems: "flex-start" }}
+          style={{ alignItems: "center" }}
         >
-          <div
-            className="flex-shrink-0 w-10 h-10 sm:w-12 sm:h-12 bg-purple-600 rounded-lg flex items-center justify-center"
-            style={{ flexShrink: 0 }}
-          >
-            <Shield className="w-5 h-5 sm:w-6 sm:h-6 text-white" />
+          <div className="flex flex-col items-center sm:block w-full sm:w-auto">
+            <div className="flex-shrink-0 w-10 h-10 sm:w-12 sm:h-12 bg-purple-600 rounded-lg flex items-center justify-center mx-auto sm:mx-0" style={{ flexShrink: 0 }}>
+              <Shield className="w-5 h-5 sm:w-6 sm:h-6 text-white" />
+            </div>
           </div>
           <div className="text-center sm:text-left" style={{ flexGrow: 1 }}>
             <h3 className="text-base sm:text-lg font-semibold text-white">Zero ads, zero distractions</h3>

@@ -5,13 +5,12 @@ import "./App.css"
 
 function App() {
   return (
-    <Router>
+    
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/downloader" element={<VideoDownloader />} />
       </Routes>
-    </Router>
-  )
+  );
 }
 
 export default App

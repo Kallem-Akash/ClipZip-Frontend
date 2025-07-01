@@ -34,7 +34,7 @@ const VideoDownloader = () => {
     setDownloadComplete(false)
 
     try {
-      const r = await fetch("http://localhost:8080/api/download", {
+      const r = await fetch(`${import.meta.env.VITE_API_URL}/api/download`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ url }),
@@ -155,7 +155,7 @@ const VideoDownloader = () => {
         {thumb && (
           <div className="w-80 h-44 mt-8 rounded-lg overflow-hidden shadow-2xl border border-gray-700">
             <img
-              src={needImgProxy ? `http://localhost:8080/api/img-proxy?url=${encodeURIComponent(thumb)}` : thumb}
+              src={needImgProxy ? `${import.meta.env.VITE_API_URL}/api/img-proxy?url=${encodeURIComponent(thumb)}` : thumb}
               alt="thumbnail"
               className="w-full h-full object-cover"
             />
@@ -200,7 +200,7 @@ const VideoDownloader = () => {
             {medias.map((m, i) => (
               <a
                 key={i}
-                href={`http://localhost:8080/api/proxy?url=${encodeURIComponent(m.url)}`}
+                href={`${import.meta.env.VITE_API_URL}/api/proxy?url=${encodeURIComponent(m.url)}`}
                 download={`${title || "video"}_${m.quality || "download"}.mp4`}
                 onClick={handleDownloadClick}
                 className="px-6 py-3 flex items-center space-x-2 bg-gradient-to-r from-purple-600 to-purple-700 hover:from-purple-700 hover:to-purple-800 rounded-lg text-white font-semibold shadow-lg transform hover:scale-105 transition-all duration-200 no-underline"

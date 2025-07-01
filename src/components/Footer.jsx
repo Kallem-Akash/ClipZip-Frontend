@@ -48,7 +48,7 @@ const Footer = () => {
               </a>
 
                 <a
-                  href="https://github.com/your-username"
+                  href="https://github.com/AkashAkki018"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-400 hover:text-white transition-colors"
@@ -57,7 +57,7 @@ const Footer = () => {
                   <Github className="w-4 h-4 flex-shrink-0" />
                 </a>
                 <a
-                  href="https://linkedin.com/in/your-username"
+                  href="https://www.linkedin.com/in/kallemakash018/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-400 hover:text-blue-400 transition-colors"

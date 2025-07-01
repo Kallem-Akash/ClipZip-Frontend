@@ -24,7 +24,7 @@ const Header = () => {
               Support
             </a>
             <a
-              href="https://your-portfolio.com"
+              href=""
               target="_blank"
               rel="noopener noreferrer"
               className="text-purple-400 hover:text-purple-300 transition-colors font-semibold"

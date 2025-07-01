@@ -2,7 +2,7 @@ import { Monitor, Sparkles, Shield } from "lucide-react"
 
 const HeroContent = () => {
   return (
-    <div className="space-y-6 sm:space-y-8 px-4 sm:px-0 lg:pl-8 text-center lg:text-left">
+    <div className="space-y-6 sm:space-y-8 px-4 sm:px-0 lg:pl-8 text-center sm:text-center md:mx-auto md:text-center lg:mx-0 lg:text-left">
       <div className="space-y-3 sm:space-y-4">
         <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
           <span style={{ display: "block" }}>Clip. Zip. Play.</span>

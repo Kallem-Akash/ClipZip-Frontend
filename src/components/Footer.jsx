@@ -30,7 +30,7 @@ const Footer = () => {
               <Heart className="w-4 h-4 text-red-500 fill-current animate-pulse flex-shrink-0" />
               <span>by</span>
               <a
-                href="https://your-portfolio.com"
+                href=""
                 target="_blank"
                 rel="noopener noreferrer"
                 className="font-semibold text-purple-400 hover:text-purple-300 transition-colors"

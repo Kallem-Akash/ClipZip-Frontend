@@ -17,7 +17,6 @@
    - [Local Setup](#local-setup)
 7. [Deployment](#deployment)
 8. [Credits](#credits)
-9. [License](#license)
 
 ---
 
@@ -58,11 +57,11 @@ Paste a link → pick a format/quality → download instantly — all without ad
 
 ### 🔐 Login Page
 
-![Login Screenshot](assests/login.png)
+![Login Screenshot](public/Login.png)
 
 ### 🎥 Downloader Page
 
-![Downloader Screenshot](assests/downloader.png)
+![Downloader Screenshot](public/Upload.png)
 
 > _Place your screenshots inside a `/screenshots` folder in the root of the repo._
 

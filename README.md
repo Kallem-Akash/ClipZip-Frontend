@@ -4,22 +4,6 @@
 
 ---
 
-## Table of Contents
-
-1. [Project Overview](#project-overview)
-2. [Features](#features)
-3. [Tech Stack](#tech-stack)
-4. [Screenshots](#screenshots)
-5. [Live Demo](#live-demo)
-6. [Getting Started](#getting-started)
-   - [Prerequisites](#prerequisites)
-   - [Environment Variables](#environment-variables)
-   - [Local Setup](#local-setup)
-7. [Deployment](#deployment)
-8. [Credits](#credits)
-
----
-
 ## Project Overview
 
 **ClipZip** is a full-stack, dark-themed web application that lets users download videos from **YouTube, Instagram, Facebook, and Twitter (X)** in just a few clicks.  
@@ -57,13 +41,11 @@ Paste a link → pick a format/quality → download instantly — all without ad
 
 ### 🔐 Login Page
 
-![Login Screenshot](public/Login.png)
+![Login Screenshot](/Login.png.png)
 
 ### 🎥 Downloader Page
 
-![Downloader Screenshot](public/Upload.png)
-
-> _Place your screenshots inside a `/screenshots` folder in the root of the repo._
+![Downloader Screenshot](/Upload.png.png)
 
 ---
 

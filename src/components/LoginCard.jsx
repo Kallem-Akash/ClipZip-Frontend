@@ -1,7 +1,7 @@
 
 import { useState } from "react"
 import { useNavigate } from "react-router-dom"
-import { supabase } from "../Logins/SupabaseClient"
+import { supabase } from "../Supabase/SupabaseClient"
 
 const LoginCard = () => {
   const [email, setEmail] = useState("")

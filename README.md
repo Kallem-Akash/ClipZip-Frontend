@@ -41,11 +41,11 @@ Paste a link → pick a format/quality → download instantly — all without ad
 
 ### 🔐 Login Page
 
-![Login Screenshot](/Login.png)
+![Login Screenshot](screenshots/Login.png)
 
 ### 🎥 Downloader Page
 
-![Downloader Screenshot](/Downloadpage.png)
+![Downloader Screenshot](screenshots/Downloadpage.png)
 
 ---
 

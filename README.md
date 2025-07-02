@@ -58,11 +58,11 @@ Paste a link → pick a format/quality → download instantly — all without ad
 
 ### 🔐 Login Page
 
-![Login Screenshot](screenshots/login.png)
+![Login Screenshot](assests/login.png)
 
 ### 🎥 Downloader Page
 
-![Downloader Screenshot](screenshots/downloader.png)
+![Downloader Screenshot](assests/downloader.png)
 
 > _Place your screenshots inside a `/screenshots` folder in the root of the repo._
 
@@ -154,10 +154,6 @@ Runs at: [http://localhost:8080](http://localhost:8080)
 
 ---
 
-## License
 
-Distributed under the **MIT License**. See `LICENSE` for more details.
-
----
 
 > Made with ❤️ by [Akash](https://github.com/yourusername) — PRs welcome!

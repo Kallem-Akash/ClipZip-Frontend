@@ -1,7 +1,7 @@
 import { useState } from "react"
 import { useNavigate } from "react-router-dom"
 import { LogOut, Download, ExternalLink, CheckCircle } from "lucide-react"
-import { supabase } from "../Logins/SupabaseClient"
+import { supabase } from "../Supabase/SupabaseClient"
 import VideoHero from "../components/VideoHero"
 import Footer from "../components/Footer"
 

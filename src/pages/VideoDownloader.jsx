@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import { useNavigate } from "react-router-dom"
 import { LogOut, Download, ExternalLink, CheckCircle } from "lucide-react"
 import { supabase } from "../Supabase/SupabaseClient"
@@ -7,6 +7,20 @@ import Footer from "../components/Footer"
 
 const VideoDownloader = () => {
   const navigate = useNavigate()
+  const [authChecked, setAuthChecked] = useState(false)
+  // Check authentication on mount
+  useEffect(() => {
+    let unsub;
+    (async () => {
+      const { data: { user } } = await supabase.auth.getUser();
+      if (!user) return navigate("/", { replace: true });
+      setAuthChecked(true);
+      unsub = supabase.auth.onAuthStateChange((_e, session) => {
+        if (!session?.user) navigate("/", { replace: true });
+      }).data.subscription.unsubscribe;
+    })();
+    return () => unsub && unsub();
+  }, [navigate]);
 
   /* ─── state ─── */
   const [url, setUrl] = useState("")
@@ -102,6 +116,10 @@ const VideoDownloader = () => {
   const needImgProxy = ["instagram", "facebook", "twitter"].includes(source?.toLowerCase())
 
   /* ─── UI ─── */
+  if (!authChecked) {
+    // Optionally, show a loading spinner or nothing while checking auth
+    return null;
+  }
   return (
     <div className="min-h-screen bg-gray-900 text-white flex flex-col">
       {/* Header */}

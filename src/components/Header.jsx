@@ -9,7 +9,7 @@ const Header = () => {
       <div className="max-w-7xl mx-auto px-4 py-4">
         <div className="flex items-center justify-between w-full" style={{ minHeight: "48px" }}>
           <div className="flex items-center space-x-2" style={{ flexShrink: 0 }}>
-            <h2 className="text-2xl sm:text-3xl font-bold text-white">ClipZip</h2>
+            <h2 className="text-2xl sm:text-3xl font-bold text-white">Clip<span className="text-purple-400">Zip</span></h2>
           </div>
 
           {/* Desktop Navigation */}
@@ -24,7 +24,7 @@ const Header = () => {
               Support
             </a>
             <a
-              href=""
+              href="#"
               target="_blank"
               rel="noopener noreferrer"
               className="text-purple-400 hover:text-purple-300 transition-colors font-semibold"

@@ -26,7 +26,36 @@ const Footer = () => {
 
           <div className="text-center md:text-right flex-shrink-0">
             <p className="flex items-center justify-center md:justify-end space-x-1 whitespace-nowrap">
-              <span>Made with</span>
+              {/* Social Media Icons - After branding */}
+              <span className="ml-3 flex items-center space-x-2 flex-shrink-0">
+                <a
+                  href="mailto:akashgoud018@gmail.com"
+                  className="text-gray-400 hover:text-blue-400 transition-colors"
+                  aria-label="Send Email"
+                >
+                  <Mail className="w-4 h-4 flex-shrink-0" />
+                </a>
+                <a
+                  href="https://github.com/Kallem-Akash"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-400 hover:text-white transition-colors"
+                  aria-label="GitHub"
+                >
+                  <Github className="w-4 h-4 flex-shrink-0" />
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/kallemakash/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-400 hover:text-blue-400 transition-colors"
+                  aria-label="LinkedIn"
+                >
+                  <Linkedin className="w-4 h-4 flex-shrink-0" />
+                </a>
+              </span>
+
+              <span className="pl-3">Made with</span>
               <Heart className="w-4 h-4 text-red-500 fill-current animate-pulse flex-shrink-0" />
               <span>by</span>
               <a
@@ -37,36 +66,7 @@ const Footer = () => {
               >
                 Akash
               </a>
-              {/* Social Media Icons - After branding */}
-              <span className="ml-3 flex items-center space-x-2 flex-shrink-0">
-              <a
-              href="mailto:akashgoud018@gmail.com"
-              className="text-gray-400 hover:text-blue-400 transition-colors"
-              aria-label="Send Email"
-              >
-                  <Mail className="w-4 h-4 flex-shrink-0" />
-              </a>
-
-                <a
-                  href="https://github.com/AkashAkki018"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-gray-400 hover:text-white transition-colors"
-                  aria-label="GitHub"
-                >
-                  <Github className="w-4 h-4 flex-shrink-0" />
-                </a>
-                <a
-                  href="https://www.linkedin.com/in/kallemakash018/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-gray-400 hover:text-blue-400 transition-colors"
-                  aria-label="LinkedIn"
-                >
-                  <Linkedin className="w-4 h-4 flex-shrink-0" />
-                </a>
-                
-              </span>
+              
             </p>
           </div>
         </div>

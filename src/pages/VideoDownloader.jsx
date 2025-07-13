@@ -131,7 +131,7 @@ const VideoDownloader = () => {
             </h2>
             <div className="flex items-center space-x-4 sm:space-x-6" style={{ flexShrink: 0 }}>
               <a
-                href="https://your-portfolio.com"
+                href=""
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-purple-400 hover:text-purple-300 transition-colors font-semibold text-sm sm:text-base"

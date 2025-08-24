@@ -24,7 +24,7 @@ const Header = () => {
               Support
             </a>
             <a
-              href="#"
+              href="https://kallemakash.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-purple-400 hover:text-purple-300 transition-colors font-semibold"
